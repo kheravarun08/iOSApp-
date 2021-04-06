@@ -18,7 +18,7 @@ class ViewController: UITableViewController {
     
     //MARK:- DataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        26
+        alphabet.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
